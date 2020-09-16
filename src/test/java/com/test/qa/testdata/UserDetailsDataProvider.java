@@ -8,7 +8,7 @@ import org.testng.annotations.DataProvider;
  */
 public class UserDetailsDataProvider {
 
-    @DataProvider
+    @DataProvider(name="data")
     public static Object[][] MultipleUserDetails() {
         return new Object[][]{
         	    {"", ""},

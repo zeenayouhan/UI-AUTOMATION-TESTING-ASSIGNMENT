@@ -177,7 +177,7 @@ public class UiAutomationTrainingBasicTest extends TestBase {
 	/**
 	 * Verify Login Invalid Scenario
 	 */
-	@Test(groups = "test", priority = 7,dataProvider = "data")
+	@Test(groups = "test", priority = 7,dataProvider = "data", dataProviderClass = UserDetailsDataProvider.class)
 	public void testVerifyInvalidLogin(String username, String password) {
         //Todo - Verify HomePage is displayed
         //Todo - Click Login Link
